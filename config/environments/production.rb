@@ -20,6 +20,9 @@ SampleApp::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  #Force all access to the app over SSL
+  config.force_ssl = true
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
